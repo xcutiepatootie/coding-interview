@@ -5,7 +5,7 @@ const axios = require("axios");
 const PORT = 3000;
 
 app.get("/", (req, res) => {
-  res.send("Hello, Bhon Goodluck!");
+  res.send("Hello, Goodluck!");
 });
 var animalsArray = ["Elephant", "Eagle", "Dragonfly"];
 
