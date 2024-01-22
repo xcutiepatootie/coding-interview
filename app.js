@@ -5,7 +5,7 @@ const axios = require("axios");
 const PORT = 3000;
 
 app.get("/", (req, res) => {
-  res.send("Hello, Bhon Goodluck!");
+  res.send("Hello, Express!");
 });
 var animalsArray = ["Elephant", "Eagle", "Dragonfly"];
 
@@ -19,6 +19,11 @@ var animalsArray = ["Elephant", "Eagle", "Dragonfly"];
 // }
 
 //
+
+// After you get the design output create an API call to this API endpoint
+// https://api.api-ninjas.com/v1/animals
+// Or Visit this URL for more info: https://api-ninjas.com/api/animals
+// API-Key to use: ccCBd7oOPGXnF/Byo9+rUw==FrPn9rqGncHCgE4u
 
 app.listen(PORT, () => {
   console.log(`Server is running on PORT:${PORT}`);
